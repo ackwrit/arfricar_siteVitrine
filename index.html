@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Crete+Round'>
+    <title>
+      Africar
+    </title>
+
+
+  </head>
+  <body>
+    <header>
+      <img src="images/logo.png" width="150" height="150">
+      <div id=""></div>
+      <nav>
+        <ul>
+          <li><a href="#accueil"> ACCUEIL</li>
+          <li> <a href="#Qui">QUI SOMMES-NOUS</li>
+          <li><a href="#recrutement">RECRUTEMENT</li>
+          <li><a href="#contact">CONTACT</li>
+
+          <li><a href="#faq">F.A.Q</li>
+        </ul>
+      </nav>
+      <div class="slider">
+        <div class="slides">
+          <div class="slide"><img src="images/1.jpg"></div>
+          <div class="slide"><img src="images/2.jpg"></div>
+          <div class="slide"><img src="images/3.jpg"></div>
+          <div class="slide"><img src="images/4.jpg"></div>
+        </div>
+      </div>
+
+</header>
+
+<section id="activite" >
+
+<div class="wrapper">
+
+  <article style="background-image:url(images/images.jpg)">
+    <div class="overlay">
+
+
+  <br>
+  <h2>BARBIER</h2>
+  <br>
+  <p>Des professionnels de la barbe</p>
+</div>
+</article>
+
+  <article style="background-image:url(images/locks2.jpg)">
+<div class="overlay">
+  <br>
+  <h2>COIFFURE</h2>
+  <br>
+  <p>Une large sélection de coiffures</p>
+  </div>
+</article>
+
+</section>
+
+
+
+
+
+<section id="Qui">
+  <h1>Qui sommes-Nous ? </h1>
+
+
+</section>
+
+
+
+<section id="recrutement">
+  <br>
+  <h2>RECRUTEMENT</h2>
+  <form class="formulaire" action="index.html" method="post" enctype="multipart/form-data">
+
+    <h3>Civilités</h3>
+    <!--nom professionnels-->
+    <div class="boite">
+    <label for="name">Nom</label>
+    <input type="text" id="box" placeholder="Votre nom">
+    <!--prénom professionnels-->
+    <label for="name">Prénom</label>
+    <input type="text" id="box" placeholder="Votre prénom">
+    <label for="mail">Email</label>
+    <input type="text" id="box" placeholder="Votre email">
+    <label for="name">Téléphone</label>
+    <input type="text" id="box" placeholder="n° de téléphone">
+    <label for="profession">Profession</label>
+    <select class="profession" name="profession">
+      <option value="barbier">barbier</option>
+      <option value="coiffeur">coiffeur</option>
+
+    </select>
+    <label for="profil">Photo</label>
+    <input type="file" name="profil" value="Upload">
+  </div>
+    <!--zone de description-->
+
+    <h3>Description</h3>
+    <div class="boite">
+
+
+    <textarea cols="100px" rows="20px" id="desc" placeholder="Décrivez-vous en quelques lignes"></textarea>
+
+  </div>
+  <div class="boite">
+
+
+  <h4>Illustration des travaux</h4><br>
+  <input type="file" name="illustration" value="illustration">
+  <input type="file" name="illustration2" value="illustration2">
+  <input type="file" name="illustration3" value="illustration3">
+  <input type="file" name="illustration4" value="illustration4">
+  </div>
+
+  <!-- Zone intégrant les spécialités des professionnels
+  <input type="checkbox" name="" value="">
+  <input type="checkbox" name="" value="">
+  <input type="checkbox" name="" value="">
+  <input type="checkbox" name="" value="">
+  <input type="checkbox" name="" value="">
+  <input type="checkbox" name="" value="">
+  <input type="checkbox" name="" value="">
+  -->
+    <h3>Disponibilté</h3>
+    <div class="boite">
+
+    <input type="checkbox" id="lundi" name="lundi"><label for="lundi">Lundi</label>
+    <input type="checkbox" id="mardi" name="mardi"><label for="mardi">Mardi</label>
+    <input type="checkbox" id="mercredi" name="lundi"><label for="mercredi">Mercredi</label>
+    <input type="checkbox" id="jeudi" name="lundi"><label for="jeudi">Jeudi</label>
+    <input type="checkbox" id="vendredi" name="vendredi"><label for="vendredi">Vendredi</label>
+    <input type="checkbox" id="samedi" name="samedi"><label for="samedi">Samedi</label>
+    <input type="checkbox" id="dimanche" name="dimanche"><label for="dimanche">Dimanche</label>
+    <br>
+    <input type="checkbox" id="matin" name="matin" value="matin"><label for="matin">Matin</label>
+    <input type="checkbox" id="soir" name="soir" value="soir"><label for="soir">Soir</label>
+    <br><br>
+    <label for="liste">Rayon :</label><select class="liste" name="rayon">
+      <option value="0">Domicile</option>
+      <option value="5">5 km</option>
+      <option value="10">10 Km</option>
+      <option value="30">30 Km</option>
+      <option value="50">50 Km</option>
+      <option value="100">100 Km</option>
+
+    </select>
+</div>
+<br>
+<br>
+
+  <div class="boite">
+
+
+    <input type="submit" class="boutton" name="ok" value="enregistrement">
+      </div>
+  </form>
+
+</section>
+
+
+<section id="faq">
+  <h2>F.A.Q</h2>
+
+</section>
+
+
+
+
+
+
+
+
+    <footer>
+      <section id="contact"><a href="mailto:takehaircontact@gmail.com?subject=Informations"><img src="images/iconemail.png" width="15px" height="15px"> Nous contacter par mail</a></section>
+
+        <br><div class="copyright">Takehair. Copyright 2019. Tous droits réservés</div>
+
+
+    </footer>
+
+  </body>
+
+</html>
